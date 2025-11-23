@@ -17,6 +17,7 @@ jobs:
     env:
       DB_USER_SUPABASE: ${{ secrets.DB_USER_SUPABASE }}
       DB_PWD_SUPABASE: ${{ secrets.DB_PWD_SUPABASE }}
+
   
     steps:
       - uses: actions/checkout@v4
@@ -65,3 +66,4 @@ jobs:
           package: '*.jar'
 
           
+
